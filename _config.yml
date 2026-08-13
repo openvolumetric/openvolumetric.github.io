@@ -1,0 +1,22 @@
+title: OpenVolumetric
+description: An open-source, cross-platform toolkit for encoding, streaming, and playing volumetric video.
+url: "https://openvolumetric.github.io"
+baseurl: ""
+lang: en-GB
+encoding: utf-8
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - index_tmp.md
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
